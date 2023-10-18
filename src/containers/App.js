@@ -3,7 +3,7 @@ import Cardlist from '../components/Cardlist';
 import SeacrhBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundry';
-
+import Header from '../components/Header';
 
 function App() {
     const [robots, setRobots] = useState([]);
@@ -30,7 +30,7 @@ function App() {
     } else {
         return (
             <div className='tc'>
-                <h1 className='f1'> RoboFriends</h1>
+                <Header />
                 <button onClick={() => setCount(count+1) }> Click me </button>
                 <SeacrhBox searchChange={onSearchChange}/> 
                 {/* but this an objects so must include this. before */}
