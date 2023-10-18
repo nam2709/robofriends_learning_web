@@ -8,7 +8,7 @@ import Header from '../components/Header';
 function App() {
     const [robots, setRobots] = useState([]);
     const [searchfield, setSearchfield] = useState('');
-    const [count, setCount] = useState(0);
+    // const [count, setCount] = useState(0);
 
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/users')
@@ -31,7 +31,7 @@ function App() {
         return (
             <div className='tc'>
                 <Header />
-                <button onClick={() => setCount(count+1) }> Click me </button>
+                {/* <button onClick={() => setCount(count+1) }> Click me </button> */}
                 <SeacrhBox searchChange={onSearchChange}/> 
                 {/* but this an objects so must include this. before */}
                 <Scroll>
