@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Robotfriends",
+  "name": "Robotfriends",
   "icons": [
     {
       "src": "favicon.ico",
@@ -24,5 +24,8 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "description": "Cool robot friends img apps"
+  "description": "Cool robot friends img apps",
+  "id": "Robotfriends",
+  "lang": "en",
+  "orientation": "any"
 }
