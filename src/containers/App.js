@@ -26,7 +26,13 @@ function App() {
         return robot.name.toLowerCase().includes(searchfield.toLowerCase())
     })
     if (!robots.length){
-        return <h1>Loading</h1>
+        return (
+            <div className='tc'>
+                <Header />
+                <SeacrhBox/> 
+                <h1>Loading failed - No Wifi Connection</h1>
+            </div>
+        )
     } else {
         return (
             <div className='tc'>
