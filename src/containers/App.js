@@ -4,6 +4,8 @@ import SeacrhBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundry';
 import Header from '../components/Header';
+import PostPic from '../components/PostPic';
+import VideoPlayer from '../components/VideoBG';
 
 function App() {
     const [robots, setRobots] = useState([]);
@@ -11,7 +13,7 @@ function App() {
     // const [count, setCount] = useState(0);
 
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/users')
+        fetch('https://shaded-adorable-doll.glitch.me/images')
             .then(response => response.json())
             .then(users => setRobots(users));
     },[])
@@ -28,6 +30,7 @@ function App() {
     if (!robots.length){
         return (
             <div className='tc'>
+                <VideoPlayer />
                 <Header />
                 <SeacrhBox/> 
                 <h1>Loading failed - No Wifi Connection</h1>
@@ -36,6 +39,7 @@ function App() {
     } else {
         return (
             <div className='tc'>
+                <VideoPlayer />
                 <Header />
                 {/* <button onClick={() => setCount(count+1) }> Click me </button> */}
                 <SeacrhBox searchChange={onSearchChange}/> 
@@ -45,6 +49,7 @@ function App() {
                         <Cardlist robots={filterRobots}/>
                     </ErrorBoundry>
                 </Scroll>
+                <PostPic />
             </div> 
         );
     }  

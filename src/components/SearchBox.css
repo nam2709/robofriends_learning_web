@@ -1,0 +1,18 @@
+.search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon {
+    cursor: pointer;
+  }
+  
+  .search-box {
+    display: none;
+  }
+  
+  /* Show the search box when isSearchOpen is true */
+  .search-box.show {
+    display: block;
+  }
+  

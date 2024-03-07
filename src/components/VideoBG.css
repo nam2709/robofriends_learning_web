@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.video-container {
+    width: 100%;
+    height: 100vh;
+    position: relative; /* Added position relative to contain absolute positioned content */
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align items to the end (right) */
+    justify-content: flex-end; /* Justify content to the end (bottom) */
+    padding: 5%; /* Use a percentage for padding */
+    color: white;
+}
+
+.content h1 {
+    color: #110340; /* Text color */
+    font-size: 5em; /* Font size */
+    font-weight: bold; /* Font weight */
+    margin-bottom: 10px; /* Bottom margin */
+    /* Add more styling properties as needed */
+}
+
+.transparent {
+    opacity: 0.3; /* Adjust the opacity level as needed */
+    transition: opacity 0.5s ease; /* Add a smooth transition effect */
+}

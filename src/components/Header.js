@@ -6,7 +6,7 @@ class Header extends Component{
     }
     render() {
         console.log('header')
-        return <h1 className='f1'> RoboFriends</h1>
+        return <h1 className='f1' style={{ fontFamily: 'SEGA LOGO FONT', color: 'purple', fontSize: '3.6rem'}}> Women's_Day </h1>
     }
 }
 
