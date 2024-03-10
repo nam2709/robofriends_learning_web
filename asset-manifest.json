@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/robofriends_learning_web/static/css/main.40080c67.css",
+    "main.css": "/robofriends_learning_web/static/css/main.874a4c91.css",
     "main.js": "/robofriends_learning_web/static/js/main.bec76c51.js",
     "static/js/787.7913b905.chunk.js": "/robofriends_learning_web/static/js/787.7913b905.chunk.js",
     "static/media/example.mp4": "/robofriends_learning_web/static/media/example.5fc9f2ca13e91c695c6f.mp4",
     "service-worker.js": "/robofriends_learning_web/service-worker.js",
     "index.html": "/robofriends_learning_web/index.html",
-    "main.40080c67.css.map": "/robofriends_learning_web/static/css/main.40080c67.css.map",
+    "main.874a4c91.css.map": "/robofriends_learning_web/static/css/main.874a4c91.css.map",
     "main.bec76c51.js.map": "/robofriends_learning_web/static/js/main.bec76c51.js.map",
     "787.7913b905.chunk.js.map": "/robofriends_learning_web/static/js/787.7913b905.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40080c67.css",
+    "static/css/main.874a4c91.css",
     "static/js/main.bec76c51.js"
   ]
 }
